@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Registro de Serviços - Assistência Técnica</title>
+  
+</head>
+<body>
+
+    <h1>Registro de Serviços - Assistência Técnica</h1>
+
+  <div>
+    <input type="text" id="nome" placeholder="Nome do Serviço" />
+    <input type="number" id="valor" placeholder="Valor (R$)" />
+    <textarea id="descricao" placeholder="Descrição do Serviço"></textarea>
+    <button onclick="adicionarServico()">Adicionar Serviço</button>
+  </div>
+
+  <div class="service-list" id="listaServicos"></div>
+
+  <div class="total" id="totalValor">Total: R$ 0,00</div>
+
+ 
+
+</body>
+<script src="script.js"></script>
+</html>
